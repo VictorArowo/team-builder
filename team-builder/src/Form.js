@@ -1,6 +1,10 @@
 import React from 'react';
 
 const Form = ({ onInputChange, handleSubmit, formData }) => {
+  const disabled = () => {
+    return !formData.email || !formData.name || !formData.role;
+  };
+
   return (
     <div>
       <h2>Add a New Team Member</h2>
@@ -34,7 +38,7 @@ const Form = ({ onInputChange, handleSubmit, formData }) => {
         />
         <br />
         <br />
-        <input type="submit" />
+        <input type="submit" disabled={disabled()} />
       </form>
     </div>
   );
