@@ -9,24 +9,6 @@ const initialTeamMembers = [
     name: 'Victor',
     email: 'victor@gmail.com',
     role: 'Backend Engineer'
-  },
-  {
-    id: uuid(),
-    name: 'Richany',
-    email: 'richany@gmail.com',
-    role: 'Frontend Engineer'
-  },
-  {
-    id: uuid(),
-    name: 'Isaac',
-    email: 'isaac@gmail.com',
-    role: 'Full Stack Developer'
-  },
-  {
-    id: uuid(),
-    name: 'John',
-    email: 'jon@gmail.com',
-    role: 'Python Translator'
   }
 ];
 
